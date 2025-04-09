@@ -46,21 +46,27 @@ const content = {
                 demo: ""
             },
             {
-                title: "App de Retos Diarios",
-                description: ["Aplicación móvil para enviar alertas, retos y mensajes personalizados. Pensada para mejorar la salud mental."],
-                technologies: ["Flutter", "Firebase"],
+                title: "Docente Auxiliar - Curso de Lógica de Sistemas",
+                place: "Universidad de San Carlos de Guatemala",
+                date: "Enero 2023 - Noviembre 2023",
+                current: false,
+                description: [
+                    "• Apoyo en la enseñanza del pensamiento lógico para la resolución de problemas.",
+                    "• Colaboración con la catedrática en el desarrollo de actividades para fortalecer habilidades analíticas en los estudiantes."
+                ],
+                technologies: ["Lógica", "Resolución de Problemas", "Educación"],
                 github: "",
                 demo: ""
             },
         ]
     },
-    en:{
+    en: {
         titulo: "Projects",
         projects: [
             {
                 title: "Mid-Level Test Automation Engineer",
                 place: "Banco Industrial, Guatemala",
-                date: "Junio 2023",
+                date: "June 2023",
                 current: true,
                 description: ["• Design and implementation of automated testing for RESTful APIs."],
                 technologies: ["Postman", "Jest", "SuperTest"],
@@ -70,7 +76,7 @@ const content = {
             {
                 title: "Finance Management System",
                 place: "Ministerio de Salud, Guatemala",
-                date: "Noviembre 2024 - Marzo 2025",
+                date: "November 2024 - March 2025",
                 current: false,
                 description: ["• Automation of the management of budget lines and funding sources.\n",
                     "• Implementation of a module to build budgets by adding detailed information row by row.\n",
@@ -84,7 +90,7 @@ const content = {
             {
                 title: "Budget Management System",
                 place: "División de Educación a Distancia en Entornos Virtuales, Universidad de San Carlos de Guatemala",
-                date: "Febrero 2024 - Septiembre 2024",
+                date: "February 2024 - September 2024",
                 current: false,
                 description: ["• Automated the management of expense categories and the creation of budget line items.\n",
                     "• Built a module for generating budget drafts linked to their respective budget lines, with the option to duplicate data from previous years for faster setup.\n",
@@ -98,18 +104,25 @@ const content = {
                 demo: ""
             },
             {
-                title: "App de Retos Diarios",
-                description: ["Aplicación móvil para enviar alertas, retos y mensajes personalizados. Pensada para mejorar la salud mental."],
-                technologies: ["Flutter", "Firebase"],
+                title: "Teaching Assistant - Logic Systems Course",
+                place: "Universidad de San Carlos de Guatemala",
+                date: "January 2023 November 2023",
+                current: false,
+                description: [
+                    "• Supported students in developing logical thinking for problem solving.",
+                    "• Worked alongside the professor to design learning activities that foster analytical skills."
+                ],
+                technologies: ["Logic", "Problem Solving", "Education"],
                 github: "",
                 demo: ""
             },
+
         ]
     }
 };
 
 const ProjectsSection = ({ language }) => {
-    const { titulo,projects } = content[language];
+    const { titulo, projects } = content[language];
     console.log(language);
     console.log(projects);
     return (
@@ -128,9 +141,19 @@ const ProjectsSection = ({ language }) => {
                                 <Typography variant="body2" color="text.secondary">
                                     {project.place}
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    {project.date}
-                                </Typography><br />
+                                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                                    <Typography variant="body2" color="text.secondary">
+                                        {project.date}
+                                    </Typography>
+                                    {project.current && (
+                                        <Chip
+                                            label={language === "es" ? "En curso" : "Current"}
+                                            color="primary"
+                                            size="small"
+                                            style={{ fontWeight: "bold" }}
+                                        />
+                                    )}
+                                </div><br />
                                 {project.description.map((desc, i) => (
                                     <Typography variant="body2" color="text.secondary">
                                         {desc}
