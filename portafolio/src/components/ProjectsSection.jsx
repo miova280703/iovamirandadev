@@ -10,36 +10,55 @@ const content = {
                 place: "Banco Industrial, Guatemala",
                 date: "Junio 2023",
                 current: true,
-                description: ["• Desarrollo de pruebas automatizadas para APIs Rest."],
+                description: "Desarrollo de pruebas automatizadas para APIs de Open Banking.",
+                key: "Principales Logros:",
+                keys: [
+                    "• Elaboración de pruebas explorativas y manuales al sitio web de API Market.",
+                    "• Reducción el tiempo de ejecución de pruebas en un 30% al optimizar los scripts de automatización.",
+                    "• Implementación de pruebas de regresión automatizadas para garantizar la estabilidad del sistema tras cada actualización.",
+                    "• Colaboración con el equipo de desarrollo para identificar y resolver problemas de calidad en las APIs.",
+                    "• Reducción el tiempo de elaboración del script de pruebas en un 80% al elaborar un programa para generar el script.",
+                    "• Reduje un 30% los errores en documentación al realizar un programa para validar las documentaciones tecnicas de las APIs.",
+                ],
                 technologies: ["Postman", "Jest", "SuperTest"],
                 github: "",
                 demo: ""
             },
             {
-                title: "Sistema de Manejo de Finanzas",
-                place: "Ministerio de Salud, Guatemala",
+                title: "Desarrolladora de Software FullStack",
+                place: "Ministerio de Salud Pública, Guatemala",
                 date: "Noviembre 2024 - Marzo 2025",
                 current: false,
-                description: ["• Automatización de la gestión de renglones y fuentes de gasto.\n",
-                    "• Implementación de un módulo para construir presupuestos agregando cada fila la información correspondiente.\n",
-                    "• Registro de reprogramaciones y compras realizadas con trazabilidad completa.\n",
-                    "• Generación de reportes estratégicos para la toma de decisiones institucionales."
+                description: "Diseño e implementación de un Sistema de Manejo de Finanzas para optimizar la gestión del presupuesto, reemplazando procesos manuales basados en hojas de cálculo.",
+                key: "Principales Logros:",
+                keys: [
+                    "• Desarrollo de un backend seguro con autenticación mediante JWT y validación de datos.\n",
+                    "• Creación de microservicios desacoplados, dockerización individual de cada servicio y orquestación con Docker Compose.\n",
+                    "• Diseño y desarrollo de una interfaz web intuitiva para la carga, edición y visualización de datos financieros.\n",
+                    "• Implementación de consultas SQL optimizadas para la generación de reportes de ejecución presupuestaria.\n",
+                    "• Implementación de un sistema de gestión de usuarios con roles y permisos específicos para cada función del sistema.\n",
+                    "• Reducción del 60% de errores manuales, mejorando significativamente la trazabilidad y transparencia de los procesos administrativos.\n",
                 ],
                 technologies: ["React", "Node.js", "Express", "JWT", "MySQL", "Sequelize", "Docker", "Docker Compose"],
                 github: "",
                 demo: ""
             },
             {
-                title: "Sistema de Control de Ejecución Financiera",
+                title: "Desarrolladora de Software FullStack",
                 place: "División de Educación a Distancia en Entornos Virtuales, Universidad de San Carlos de Guatemala",
                 date: "Febrero 2024 - Septiembre 2024",
                 current: false,
-                description: ["• Automatización de la gestión de renglones de gasto, meses, años y creación de partidas presupuestarias.\n",
-                    "• Implementación de un módulo para construir anteproyectos asociados a sus respectivas partidas, con la opción de duplicar datos de años anteriores para mayor agilidad.\n",
-                    "• Integración de exportación de anteproyectos en formato Excel para su revisión y aprobación oficial.\n",
-                    "• Desarrollo de funcionalidad para calendarizar compras por renglón presupuestario.\n",
-                    "• Registro de reprogramaciones, transferencias y compras realizadas con trazabilidad completa.\n",
-                    "• Generación de reportes estratégicos para la toma de decisiones institucionales."
+                description: "Diseño e implementación de un Sistema de Control de Ejecución Financiera para optimizar la gestión del presupuesto y las adquisiciones, reemplazando procesos manuales basados en hojas de cálculo.",
+                key: "Principales Logros:",
+                keys: [
+                    "• Desarrollo de un backend seguro con autenticación mediante JWT, validación de datos y control de acceso por roles.\n",
+                    "• Creación de microservicios desacoplados, dockerización individual de cada servicio y orquestación con Docker Compose.\n",
+                    "• Automatización de procesos de integración y entrega continua (CI/CD) utilizando Jenkins.\n",
+                    "• Diseño y desarrollo de una interfaz web intuitiva para la carga, edición y visualización de datos financieros.\n",
+                    "• Implementación de consultas SQL optimizadas para la generación de reportes de ejecución presupuestaria.\n",
+                    "• Ejecución de pruebas automatizadas para garantizar la calidad del sistema.\n",
+                    "• Implementación de un sistema de gestión de usuarios con roles y permisos específicos para cada función del sistema.\n",
+                    "• Reducción del 40% de errores manuales, mejorando significativamente la trazabilidad y transparencia de los procesos administrativos.\n",
                 ],
                 technologies: ["React", "Node.js", "Express", "JWT", "MySQL", "Sequelize", "Docker", "Docker Compose", "Jenkins"],
                 github: "",
@@ -50,9 +69,18 @@ const content = {
                 place: "Universidad de San Carlos de Guatemala",
                 date: "Enero 2023 - Noviembre 2023",
                 current: false,
-                description: [
-                    "• Apoyo en la enseñanza del pensamiento lógico para la resolución de problemas.",
-                    "• Colaboración con la catedrática en el desarrollo de actividades para fortalecer habilidades analíticas en los estudiantes."
+                description: "Apoyo en la docencia y el acompañamiento académico de estudiantes en el curso de Lógica de Sistemas.",
+                key: "Principales Logros:",
+                keys: [
+                    "• Preparar y presentar materiales didácticos, ejercicios y talleres prácticos enfocados en la resolución de problemas mediante el pensamiento lógico y estructurado.",
+                    "• Brindar asistencia personalizada a estudiantes, resolviendo dudas teóricas y prácticas sobre lógica proposicional, tablas de verdad, diagramas de flujo, pseudocódigo y estructuras de control básicas.",
+                    "• Colaborar con el profesor en la elaboración de actividades de aprendizaje que fomenten el desarrollo de habilidades analíticas y de resolución de problemas en los estudiantes.",
+                    "• Evaluar el desempeño de los estudiantes mediante la corrección de ejercicios y hojas de trabajo, proporcionando retroalimentación constructiva para mejorar su comprensión de los conceptos.",
+                    "• Participar en reuniones académicas y de planificación con el equipo docente para mejorar la calidad del curso y la experiencia de aprendizaje de los estudiantes.",
+                    "• Fomentar un ambiente de aprendizaje colaborativo y motivador, promoviendo la participación activa de los estudiantes en clase y el trabajo en equipo.",
+                    "• Desarrollar materiales complementarios, como guías de estudio, para apoyar el aprendizaje autónomo de los estudiantes.",
+                    "• Contribuir a la mejora continua del curso mediante la recopilación de comentarios de los estudiantes y la implementación de sugerencias para optimizar el contenido y la metodología de enseñanza.",
+                    "• Brindar una conferencia a los estudiantes del tema de modelos mentales y paradigmas.",
                 ],
                 technologies: ["Lógica", "Resolución de Problemas", "Educación"],
                 github: "",
@@ -68,36 +96,54 @@ const content = {
                 place: "Banco Industrial, Guatemala",
                 date: "June 2023",
                 current: true,
-                description: ["• Design and implementation of automated testing for RESTful APIs."],
+                description: "Development of automated tests for Open Banking APIs.",
+                key: "Key Achievements:",
+                keys: ["• Created exploratory and manual tests for the API Market website.",
+                    "• Reduced test execution time by 30% by optimizing automation scripts.",
+                    "• Implemented automated regression tests to ensure system stability after each update.",
+                    "• Collaborated with the development team to identify and resolve quality issues in APIs.",
+                    "• Reduced test script creation time by 80% by developing a program to generate the script.",
+                    "• Reduced documentation errors by 30% by creating a program to validate API technical documentation."
+                ],
                 technologies: ["Postman", "Jest", "SuperTest"],
                 github: "",
                 demo: ""
             },
             {
-                title: "Finance Management System",
+                title: "FullStack Software Developer\n",
                 place: "Ministerio de Salud, Guatemala",
                 date: "November 2024 - March 2025",
                 current: false,
-                description: ["• Automation of the management of budget lines and funding sources.\n",
-                    "• Implementation of a module to build budgets by adding detailed information row by row.\n",
-                    "• Recording of reschedulings and completed purchases with full traceability.\n",
-                    "• Generation of strategic reports to support institutional decision-making."
+                description: "Design and implementation of a Financial Management System to optimize budget and procurement management, replacing manual processes based on spreadsheets.",
+                key: "Key Achievements:",
+                keys: [
+                    "• Developed a secure backend with JWT authentication and data validation.\n",
+                    "• Created decoupled microservices, containerized each with Docker, and orchestrated them using Docker Compose.\n",
+                    "• Designed and developed an intuitive web interface for loading, editing, and visualizing financial data.\n",
+                    "• Implemented optimized SQL queries to generate budget execution reports.\n",
+                    "• Implemented a user management system with specific roles and permissions for each function.\n",
+                    "• Reduced manual errors by 60%, significantly improving the traceability and transparency of administrative processes.\n"
                 ],
                 technologies: ["React", "Node.js", "Express", "JWT", "MySQL", "Sequelize", "Docker", "Docker Compose"],
                 github: "",
                 demo: ""
             },
             {
-                title: "Budget Management System",
-                place: "División de Educación a Distancia en Entornos Virtuales, Universidad de San Carlos de Guatemala",
-                date: "February 2024 - September 2024",
+                title: "FullStack Software Developer\n",
+                place: "Division of Distance Education in Virtual Environments, University of San Carlos of Guatemala\n",
+                date: "February 2024 – September 2024\n",
                 current: false,
-                description: ["• Automated the management of expense categories and the creation of budget line items.\n",
-                    "• Built a module for generating budget drafts linked to their respective budget lines, with the option to duplicate data from previous years for faster setup.\n",
-                    "• Integrated export functionality to Excel format for draft submission and approval.\n",
-                    "• Developed a calendar system to schedule purchases by budget category.\n",
-                    "• Enabled tracking of reschedulings, transfers, and all completed purchases.\n",
-                    "• Generated strategic reports to support data-driven institutional decision-making."
+                description: "Designed and implemented a Financial Execution Control System to optimize budget and procurement management, replacing manual processes based on Excel spreadsheets.\n",
+                key: "Key Achievements:",
+                keys: [
+                    "• Developed a secure backend with JWT authentication, data validation, and role-based access control.\n",
+                    "• Created decoupled microservices, containerized each with Docker, and orchestrated them using Docker Compose.\n",
+                    "• Automated CI/CD pipelines using Jenkins for continuous integration and delivery.\n",
+                    "• Designed and developed an intuitive web interface for loading, editing, and visualizing financial data.\n",
+                    "• Implemented optimized SQL queries to generate budget execution reports.\n",
+                    "• Executed automated tests to ensure software quality.\n",
+                    "• Implemented a user management system with specific roles and permissions for each function.\n",
+                    "• Reduced manual errors by 40%, significantly improving the traceability and transparency of administrative processes.\n"
                 ],
                 technologies: ["React", "Node.js", "Express", "JWT", "MySQL", "Sequelize", "Docker", "Docker Compose", "Jenkins"],
                 github: "",
@@ -105,12 +151,21 @@ const content = {
             },
             {
                 title: "Teaching Assistant - Logic Systems Course",
-                place: "Universidad de San Carlos de Guatemala",
-                date: "January 2023 November 2023",
+                place: "University of San Carlos of Guatemala",
+                date: "January 2023 - November 2023",
                 current: false,
-                description: [
-                    "• Supported students in developing logical thinking for problem solving.",
-                    "• Worked alongside the professor to design learning activities that foster analytical skills."
+                description: "Support in teaching and academic assistance for students in the Logic Systems course.",
+                key: "Key Achievements:",
+                keys: [
+                    "• Prepare and deliver educational materials, exercises, and practical workshops focused on problem-solving through logical and structured thinking.",
+                    "• Provide personalized assistance to students by addressing theoretical and practical questions related to propositional logic, truth tables, flowcharts, pseudocode, and basic control structures.",
+                    "• Collaborate with the professor in designing learning activities that promote the development of analytical and problem-solving skills among students.",
+                    "• Assess student performance by grading exercises and worksheets, offering constructive feedback to enhance their understanding of the concepts.",
+                    "• Participate in academic and planning meetings with the teaching team to improve course quality and the student learning experience.",
+                    "• Foster a collaborative and motivating learning environment, encouraging active student participation and teamwork.",
+                    "• Develop supplementary materials, such as study guides, to support students' independent learning.",
+                    "• Contribute to the continuous improvement of the course by collecting student feedback and implementing suggestions to optimize content and teaching methodology.",
+                    "• Deliver a lecture on the topic of mental models and paradigms to the students.",
                 ],
                 technologies: ["Logic", "Problem Solving", "Education"],
                 github: "",
@@ -154,7 +209,13 @@ const ProjectsSection = ({ language }) => {
                                         />
                                     )}
                                 </div><br />
-                                {project.description.map((desc, i) => (
+                                <Typography variant="body2" color="text.secondary">
+                                    {project.description}
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary" sx={{ fontStyle: "italic" }}>
+                                    {project.key}
+                                </Typography>
+                                {project.keys.map((desc, i) => (
                                     <Typography variant="body2" color="text.secondary">
                                         {desc}
                                     </Typography>
