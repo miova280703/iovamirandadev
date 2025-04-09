@@ -30,7 +30,7 @@ const Header = ({ language }) => {
         <Box mt={4} mb={6} display="flex" flexDirection={{ xs: "column", sm: "row" }} alignItems="center" gap={3}>
             <Avatar
                 alt="Iovana Miranda"
-                src={`${process.env.PUBLIC_URL}/profile.jpg`} // Puedes colocar aquí tu imagen de perfil
+                src={`${process.env.PUBLIC_URL}/image.png`} // Puedes colocar aquí tu imagen de perfil
                 sx={{ width: 200, height: 200 }}
             />
             <Box>
