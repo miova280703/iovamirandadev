@@ -11,7 +11,7 @@ const content = {
           "Me especializo en pruebas explorativas, pruebas de integración a APIs (usando Jest, Supertest y Postman) y pruebas automatizadas con Selenium. " +
           "Como Fullstack Developer, tengo una fuerte experiencia en el desarrollo de aplicaciones desde el frontend hasta el backend, utilizando tecnologías como React, Node.js, y bases de datos. " +
           "Me apasiona el diseño de soluciones creativas y eficientes, con un enfoque en optimización y escalabilidad. " +
-          "Siempre enfrento los retos complejos con determinación y busco proporcionar soluciones personalizadas para cada proyecto. Tu satisfacción es mi prioridad, y estoy lista para llevar tu proyecto al siguiente nivel. 🚀",
+          "Siempre enfrento los retos complejos con determinación y busco proporcionar soluciones personalizadas para cada proyecto.",
       },
       en: {
         title: "Systems Engineer and QA",
@@ -20,7 +20,7 @@ const content = {
           "I specialize in exploratory testing, API integration testing (using Jest, Supertest, and Postman), and automated testing with Selenium. " +
           "As a Fullstack Developer, I have strong experience in developing applications from frontend to backend using technologies like React, Node.js, and databases. " +
           "I am passionate about designing creative and efficient solutions with a focus on optimization and scalability. " +
-          "I always face complex challenges with determination and strive to provide tailored solutions for each project. Your satisfaction is my priority, and I'm ready to take your project to the next level. 🚀",
+          "I always face complex challenges with determination and strive to provide tailored solutions for each project.",
       },
 };
 
@@ -30,7 +30,7 @@ const Header = ({ language }) => {
         <Box mt={4} mb={6} display="flex" flexDirection={{ xs: "column", sm: "row" }} alignItems="center" gap={3}>
             <Avatar
                 alt="Iovana Miranda"
-                src="/image.png" // Puedes colocar aquí tu imagen de perfil
+                src={`${process.env.PUBLIC_URL}/profile.jpg`} // Puedes colocar aquí tu imagen de perfil
                 sx={{ width: 200, height: 200 }}
             />
             <Box>
@@ -47,7 +47,7 @@ const Header = ({ language }) => {
                     <IconButton href="https://github.com/miova280703" target="_blank" aria-label="GitHub">
                         <GitHub />
                     </IconButton>
-                    <IconButton href="www.linkedin.com/in/iovana-miranda-5b7742a5" target="_blank" aria-label="LinkedIn">
+                    <IconButton href="https://www.linkedin.com/in/iovana-miranda-5b7742a5/" target="_blank" aria-label="LinkedIn">
                         <LinkedIn />
                     </IconButton>
                 </Stack>
