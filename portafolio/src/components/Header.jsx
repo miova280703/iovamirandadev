@@ -5,22 +5,22 @@ import { GitHub, LinkedIn } from "@mui/icons-material";
 
 const content = {
     es: {
-        title: "Ingeniera en Ciencias y Sistemas y QA",
+        title: "Ingeniera en Ciencias y Sistemas",
         description:
-          "Soy Ingeniera en Ciencias y Sistemas y QA con casi 2 años de experiencia en el desarrollo de soluciones tecnológicas de alto rendimiento. " +
-          "Me especializo en pruebas explorativas, pruebas de integración a APIs (usando Jest, Supertest y Postman) y pruebas automatizadas con Selenium. " +
-          "Como Fullstack Developer, tengo una fuerte experiencia en el desarrollo de aplicaciones desde el frontend hasta el backend, utilizando tecnologías como React, Node.js, y bases de datos. " +
-          "Me apasiona el diseño de soluciones creativas y eficientes, con un enfoque en optimización y escalabilidad. " +
-          "Siempre enfrento los retos complejos con determinación y busco proporcionar soluciones personalizadas para cada proyecto.",
+          `Soy Ingeniera en Ciencias y Sistemas con sólida experiencia en el desarrollo e implementación de soluciones tecnológicas robustas. 
+          Como Fullstack Developer, he trabajado con tecnologías modernas como React, Node.js, Express, MySQL, entre otras, creando aplicaciones escalables y eficientes.
+          También tengo conocimientos en DevOps, incluyendo el uso de Docker, Jenkins y pipelines CI/CD, lo que me permite contribuir activamente en entornos de integración y entrega continua.
+          Cuento con más de 2 años de experiencia como QA Engineer, especializándome en pruebas exploratorias, pruebas de integración de APIs (usando Jest, SuperTest y Postman) y pruebas automatizadas con Selenium, asegurando productos de alta calidad y confiabilidad.
+          Me encanta aprender y tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Me apasiona enfrentar retos técnicos complejos, optimizar procesos y diseñar soluciones a la medida para cada proyecto.`,
       },
       en: {
-        title: "Systems Engineer and QA",
+        title: "Science and Systems Engineer",
         description:
-          "I am a Systems Engineer and QA with almost 2 years of experience in developing high-performance technological solutions. " +
-          "I specialize in exploratory testing, API integration testing (using Jest, Supertest, and Postman), and automated testing with Selenium. " +
-          "As a Fullstack Developer, I have strong experience in developing applications from frontend to backend using technologies like React, Node.js, and databases. " +
-          "I am passionate about designing creative and efficient solutions with a focus on optimization and scalability. " +
-          "I always face complex challenges with determination and strive to provide tailored solutions for each project.",
+          `I am a Systems Engineering graduate with solid experience in developing and implementing robust technological solutions. 
+          As a Fullstack Developer, I have worked with modern technologies such as React, Node.js, Express, MySQL, among others, creating scalable and efficient applications.
+          I also have knowledge in DevOps, including the use of Docker, Jenkins, and CI/CD pipelines, which allows me to actively contribute in continuous integration and delivery environments.
+          I have over 2 years of experience as a QA Engineer, specializing in exploratory testing, API integration testing (using Jest, SuperTest, and Postman), and automated testing with Selenium, ensuring high-quality and reliable products.
+          I love learning and have the ability to quickly adapt to new technologies and environments. I am passionate about facing complex technical challenges, optimizing processes, and designing tailored solutions for each project.`,
       },
 };
 
