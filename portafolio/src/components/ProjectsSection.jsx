@@ -14,13 +14,13 @@ const content = {
                 key: "Principales Logros:",
                 keys: [
                     "• Elaboración de pruebas explorativas y manuales al sitio web de API Market.",
-                    "• Reducción el tiempo de ejecución de pruebas en un 30% al optimizar los scripts de automatización.",
                     "• Implementación de pruebas de regresión automatizadas para garantizar la estabilidad del sistema tras cada actualización.",
                     "• Colaboración con el equipo de desarrollo para identificar y resolver problemas de calidad en las APIs.",
-                    "• Reducción el tiempo de elaboración del script de pruebas en un 80% al elaborar un programa para generar el script.",
+                    "• Reduje el tiempo de elaboración del script de pruebas en un 80% al elaborar un programa para generar el script.",
                     "• Reduje un 30% los errores en documentación al realizar un programa para validar las documentaciones tecnicas de las APIs.",
+                    "• Reduje el tiempo de automatización de pruebas en un 70% al elaborar una página web que genera la colección con el codigo de prueba de cada request.",
                 ],
-                technologies: ["Postman", "Jest", "SuperTest"],
+                technologies: ["Postman", "Newman", "Jest", "SuperTest"],
                 github: "",
                 demo: ""
             },
@@ -98,14 +98,15 @@ const content = {
                 current: true,
                 description: "Development of automated tests for Open Banking APIs.",
                 key: "Key Achievements:",
-                keys: ["• Created exploratory and manual tests for the API Market website.",
-                    "• Reduced test execution time by 30% by optimizing automation scripts.",
+                keys: [
+                    "• Created exploratory and manual tests for the API Market website.",
                     "• Implemented automated regression tests to ensure system stability after each update.",
                     "• Collaborated with the development team to identify and resolve quality issues in APIs.",
                     "• Reduced test script creation time by 80% by developing a program to generate the script.",
-                    "• Reduced documentation errors by 30% by creating a program to validate API technical documentation."
+                    "• Reduced documentation errors by 30% by creating a program to validate API technical documentation.",
+                    "• Reduced test automation time by 70% by developing a web page that generates a collection with the test code for each request."
                 ],
-                technologies: ["Postman", "Jest", "SuperTest"],
+                technologies: ["Postman", "Newman", "Jest", "SuperTest"],
                 github: "",
                 demo: ""
             },
@@ -178,8 +179,6 @@ const content = {
 
 const ProjectsSection = ({ language }) => {
     const { titulo, projects } = content[language];
-    console.log(language);
-    console.log(projects);
     return (
         <>
             <Typography variant="h5" mt={6} mb={2}>

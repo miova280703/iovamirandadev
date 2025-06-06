@@ -11,6 +11,7 @@ import SkillsSection from "./components/SkillsSection";
 import Header from "./components/Header";
 import ThemeToggle from "./components/ThemeToggle";
 import LanguageToggle from "./components/LanguageToggle";
+import EducationSection from "./components/EducationSecction";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -43,6 +44,7 @@ function App() {
 
         <Header language={language} />
         <ProjectsSection language={language} />
+        <EducationSection language={language} />
         <SkillsSection language={language} />
       </Container>
     </ThemeProvider>
